@@ -7,10 +7,12 @@ import Home from './components/container/Home/Home'
 import Portfolio from './components/container/Portfolio/Portfolio'
 import Skills from './components/container/Skills/Skills'
 import Navbar from './components/Navbar/Navbar'
+import Particles from './components/Particles'
 
 const App = () => {
   return (
-    <div>
+    <div>  
+      <Particles />
       <Navbar />
       <Home />
       <About />
